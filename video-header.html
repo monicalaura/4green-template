@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>4GREEN Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- OWL Carousel -->
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <!-- Lightbox -->
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+   <!--Font Awesome -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
+
+  <!-- Navigation -->
+
+  <nav class="topnav navbar navbar-expand-md navbar-light nav-anim fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand logo" href="#">
+        <img class="logo horizontal-logo" src="assets/img/logo.png" alt="4GREEN logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#hero">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#story">Story</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Causes</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#portfolio" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Projects
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+              <a class="dropdown-item" href="project-info.html" target="_blank">Single Project</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonial">Testimonials</a>
+          </li>
+          
+         
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Headers
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+              <a class="dropdown-item" href="carousel-header.html" target="_blank">Carousel Header</a>
+              <a class="dropdown-item" href="video-header.html" target="_blank">Video Header</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+   
+
+  <!-- HERO -->
+  <div class="container-fluid">
+    <div class= "header">
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="assets/img/video-header.mp4" type="video/mp4">
+        </video>
+        <div class="container h-100">
+          <div class="d-flex h-100 text-center align-items-center">
+            <div class="w-100 text-white">
+              <p data-aos="fade-up">Our goal is</p>
+              <h1 class="display-3" data-aos="fade-left">4GREEN</h1>
+              <h2 data-aos="fade-right">For a healthy environment</h2>
+              <div class="donate-btn">
+                <!-- modal form-->
+               <div class="modal fade" id="VideoModalForm" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title modalJoin">Register</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form class="needs-validation" novalidate>
+                        <div class="form-group">
+                          <label for="exampleInputUserVid">Username</label>
+                          <input type="text" class="form-control" id="exampleInputUserVid" placeholder="Enter name" required>
+                          <div class="invalid-feedback">
+                            Please enter a valid user name
+                          </div>
+                          
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputEmailVid">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmailVid"  placeholder="Enter email" required>
+                          <div class="invalid-feedback">
+                            Please enter a valid email address
+                          </div>
+                          
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPasswordVid">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPasswordVid" placeholder="Password" required>
+                          <div class="invalid-feedback">
+                            Please enter a password
+                          </div>
+                        </div>
+                        <div class="form-check mb-1">
+                          <input type="checkbox" class="form-check-input" id="exampleCheckVid">
+                          <label class="form-check-label" for="exampleCheckVid">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-register">Submit</button>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!--end  modal form --> 
+              <button type="button" class="btn here donate" data-toggle="modal" data-target="#DonateModalForm">
+                Join us
+            </button>
+            </div>
+          </div>
+        </div>
+        </div> 
+  </div><!-- /.hero -->
+  </div><!-- /.container-fluid --> 
+     
+     <!--MAIN CONTENT -->
+  <main>
+    <!--Story section -->
+    <section id="story">
+      <div class="container">
+        <div class="row align-items-lg-center">
+          <div class="col-12 col-md-6 text-center text-md-left" data-aos="fade-left" >
+            <div class="d-flex justify-content-center">
+              <h1 class="story-title"><span>4GREEN</span> Story</h1>
+              </div>
+              <p class="story-tagline">Aliquam accumsan, orci sit amet hendrerit mattis, ex nisi finibus</p>
+            </div>
+            <div class="col-12 col-md-6" data-aos="fade-right">
+              <p>Aenean vel mi non velit pharetra pretium. Pellentesque tincidunt malesuada nunc, a efficitur turpis molestie quis. Maecenas porta, lacus non eleifend maximus, libero lacus vehicula dui, at ultrices ex eros posuere nisi. Vestibulum facilisis, arcu a congue sagittis, sapien felis tempus nisl, nec vestibulum ex leo a urna. Mauris aliquet vestibulum purus, id mollis lorem venenatis eget. Aliquam interdum feugiat vehicula. Aliquam accumsan, orci sit amet hendrerit mattis, ex nisi finibus enim, sit amet rutrum sem lectus et tortor. Mauris aliquet vestibulum purus. Maecenas porta, lacus non eleifend maximus.</p>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!--End The Story -->
+
+    <!--Skills section-->
+    <section id="skills">
+      <div class="container">
+        <div class="row align-items-lg-center">
+          <div class="col-12 col-md-6 text-center text-md-left" data-aos="fade-left" >
+            <div class="d-flex skilltext">
+              <h1 class="skills-title">We Care About</h1>
+              </div>
+              <h2 class="skills-tagline">Preserving a Healthy Environment, with no-waste</h2>
+              <p>Vivamus molestie dolor at ante efficitur congue. Fusce ut lorem ligula. Etiam sed tempor sapien, vel dictum risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse potenti. Praesent hendrerit felis ut suscipit volutpat. Nullam ac eros fermentum, blandit mauris congue, hendrerit leo. </p>
+            </div>
+            <div class="col-12 col-md-6 skillbar" data-aos="fade-right">
+                <div class="bar-1">
+                <div class="skill">ENVIRONMENT</div>
+                <div class="bar" data-width="95%">
+                  <div class="bar-inner">
+                    
+                  </div>
+                  <div class="bar-percent">95%</div>
+                </div>
+                </div>
+
+                <div class="bar-1">
+                <div class="skill">DEFORESTRATION</div>
+                <div class="bar" data-width="90%">
+                  <div class="bar-inner">
+                    
+                  </div>
+                  <div class="bar-percent">90%</div>
+                </div>                
+                </div>
+
+                <div class="bar-1">
+                <div class="skill">ECO-BUILDINGS</div>
+                <div class="bar" data-width="85%">
+                  <div class="bar-inner">
+                    
+                  </div>
+                  <div class="bar-percent">85%</div>
+                </div>
+                </div>
+
+                <div class="bar-1">
+                <div class="skill">BIO PRODUCTS</div>
+                <div class="bar" data-width="75%">
+                  <div class="bar-inner">
+                    
+                  </div>
+                  <div class="bar-percent">75%</div>
+                </div>
+                </div>
+
+                <div class="bar-1">
+                  <div class="skill">ECO ENERGY</div>
+                  <div class="bar" data-width="60%">
+                    <div class="bar-inner">
+                      
+                    </div>
+                    <div class="bar-percent">60%</div>
+                  </div>
+                  </div>
+                        </div>
+
+            </div>
+            <!--End Row-->
+      </div>
+      <!--End Container-->
+    </section>
+    <!--End Skills section-->
+
+    <!-- Causes Section -->
+    <section id="features" class="features">
+      <div class="container">
+        <div class="row">
+          <div class="image col-lg-6" data-aos="fade-up">
+            <img src="assets/img/features.jpg" class="img-fluid" alt="4GREEN features">
+           
+          </div>
+          <div class="icons col-lg-6" data-aos="fade-down">
+            <div class="icon-box mt-5 mt-lg-0" >
+              <i class="fas fa-tree"></i>
+              <h4>Deforestration</h4>
+              <p>Orci varius natoque penatibus et magnis dis parturient montes, dui ut maximus mattis.</p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="fas fa-leaf"></i>
+              <h4> Environment</h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="fas fa-solar-panel"></i>
+              <h4> Eco-energy</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="far fa-building"></i>
+              <h4> Eco-buildings</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Causes Section -->
+
+    <!-- Portfolio Section -->
+
+    <section id="portfolio" class="portfolio">
+    
+        <div class="container mt-3 mb-3" data-aos="fade-up">
+            <h1>Our Projects</h1>
+             <!-- Filters -->
+            <div class="row">
+                <div class="col-12">
+                    <ul id="portfolio-flters">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".deforestration">Deforestration</li>
+                        <li data-filter=".environment">Environment</li>
+                        <li data-filter=".lifestyle">Green lifestyle</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Portfolio Grid -->
+            <div class="row portfolio-grid">
+                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item deforestration">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="assets/img/portfolio/proj1.jpg" alt="Portfolio Image">
+                            <a href="assets/img/portfolio/proj1.jpg" class="link-prev" data-lightbox="portfolio"><i class="far fa-eye"></i></a>
+                            <a href="project-info.html#project-info" class="link-details" target="_blank"><i class="fa fa-link"></i></a>
+                            <a class="portfolio-title" href="#">Project One</a>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item lifestyle">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="assets/img/portfolio/proj2.jpg" alt="Portfolio Image">
+                            <a href="assets/img/portfolio/proj2.jpg" class="link-prev" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a href="project-info.html#project-info" class="link-details" target="_blank"><i class="fas fa-link"></i></a>
+                            <a class="portfolio-title" href="#">Project Two</a>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item environment">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="assets/img/portfolio/proj3.jpg" alt="Portfolio Image">
+                            <a href="assets/img/portfolio/proj3.jpg" class="link-prev" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a href="project-info.html#project-info" class="link-details" target="_blank"><i class="fa fa-link"></i></a>
+                            <a class="portfolio-title" href="#">Project Three</a>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item deforestration">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="assets/img/portfolio/proj5.jpg" alt="Portfolio Image">
+                            <a href="assets/img/portfolio/proj5.jpg" class="link-prev" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a href="project-info.html#project-info" class="link-details" target="_blank"><i class="fa fa-link"></i></a>
+                            <a class="portfolio-title" href="#">Project Four</a>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item lifestyle">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="assets/img/portfolio/proj7.jpg" alt="Portfolio Image">
+                            <a href="assets/img/portfolio/proj7.jpg" class="link-prev" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a href="project-info.html#project-info" class="link-details" target="_blank"><i class="fa fa-link"></i></a>
+                            <a class="portfolio-title" href="#">Project Five</a>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item environment">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="assets/img/portfolio/proj6.jpg" alt="Portfolio Image">
+                            <a href="assets/img/portfolio/proj6.jpg" class="link-prev" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a href="project-info.html#project-info" class="link-details" target="_blank"><i class="fa fa-link"></i></a>
+                            <a class="portfolio-title" href="#">Project Six</a>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item lifestyle">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="assets/img/portfolio/proj8.jpg" alt="Portfolio Image">
+                            <a href="assets/img/portfolio/proj8.jpg" class="link-prev" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a href="project-info.html#project-info" class="link-details" target="_blank"><i class="fa fa-link"></i></a>
+                            <a class="portfolio-title" href="#">Project Seven</a>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item environment">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="assets/img/portfolio/proj4.jpg" alt="Portfolio Image">
+                            <a href="assets/img/portfolio/proj4.jpg" class="link-prev" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a href="project-info.html#project-info" class="link-details" target="_blank"><i class="fa fa-link"></i></a>
+                            <a class="portfolio-title" href="#">Project Eight</a>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item deforestration">
+                    <div class="portfolio-wrap">
+                        <figure>
+                            <img src="assets/img/portfolio/proj9.jpg" alt="Portfolio Image">
+                            <a href="assets/img/portfolio/proj9.jpg" class="link-prev" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a href="project-info.html#project-info" class="link-details" target="_blank"><i class="fa fa-link"></i></a>
+                            <a class="portfolio-title" href="#">Project Nine</a>
+                        </figure>
+                    </div>
+                </div>                
+          </div>
+        </div>
+    </section><!-- End Portfolio Section -->
+ 
+     <!-- Counters Section -->
+     <section id ="counters">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+            <div class="four col-md-3">
+                <div class="counter-box"> <i class="fas fa-euro-sign"></i> <span class="counter">11000</span>
+                    <p>Euro Raised</p>
+                </div>
+            </div>
+            <div class="four col-md-3">
+                <div class="counter-box"> <i class="fas fa-tree"></i> <span class="counter">1400</span>
+                    <p>Trees Planted</p>
+                </div>
+            </div>
+            <div class="four col-md-3">
+                <div class="counter-box"> <i class="fas fa-users"></i> <span class="counter">525</span>
+                    <p>Volunteers</p>
+                </div>
+            </div>
+            <div class="four col-md-3">
+                <div class="counter-box"> <i class="fas fa-paw"></i> <span class="counter">600</span>
+                    <p>Animals Saved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+     </section> 
+     <!-- End Counters Section -->
+
+      <!-- Call to Action Section -->
+      <section id="call">
+       <div class="container">
+        <h1 data-aos="fade-left">If These Numbers Tell You Something</h1>
+        <div class="donate-btn">
+        <!-- modal form big screens-->
+       <div class="modal fade" id="DonateModalForm" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title modalJoin">Register</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form class="needs-validation" novalidate>
+                <div class="form-group">
+                  <label for="exampleInputUserDon">Username</label>
+                  <input type="text" class="form-control" id="exampleInputUserDon" placeholder="Enter name" required>
+                  <div class="invalid-feedback">
+                    Please enter a valid user name
+                  </div>
+                  
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmailDon">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmailDon" placeholder="Enter email" required>
+                  <div class="invalid-feedback">
+                    Please enter a valid email address
+                  </div>
+                  
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPasswordDon">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPasswordDon" placeholder="Password" required>
+                  <div class="invalid-feedback">
+                    Please enter a password
+                  </div>
+                </div>
+                <div class="form-check mb-1">
+                  <input type="checkbox" class="form-check-input" id="exampleCheckDon">
+                  <label class="form-check-label" for="exampleCheckDon">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-register">Submit</button>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--end  modal form -->        
+    <button type="button" class="btn here donate" data-toggle="modal" data-target="#DonateModalForm">
+      Donate Here
+  </button>
+        </div>
+      </div> 
+
+      </section>
+       <!-- End Call to Action Section --> 
+
+       <!-- Team Section --> 
+       <section id="team">
+        <div class="container mx-auto mt-3 col-md-10" data-aos="fade-up">
+              <h1>Everything Started with Them</h1>             
+          <div class="row cards">
+              <div class="card col-md-3">
+                  <div class="card-content">
+                      <div class="card-body p-0">
+                          <div class="profile"> <img src="./assets/img/team/1.png" alt="4green"> </div>
+                          <div class="card-title"> <h2>Anne Brown</h2> <small>Ecologist</small> </div>
+                          <div class="card-subtitle">
+                              <p> <small class="text-muted"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. </small> </p>
+                          </div>
+                          <div class="social"><a href="#"><i class="fab fa-facebook-square"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-instagram"></i></a></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="card col-md-3">
+                  <div class="card-content">
+                      <div class="card-body p-0">
+                          <div class="profile"> <img src="./assets/img/team/2.png" alt="4green"> </div>
+                          <div class="card-title"> <h2>Robert Smith</h2> <small>Project Manager</small> </div>
+                          <div class="card-subtitle">
+                              <p> <small class="text-muted"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. </small> </p>
+                          </div>
+                          <div class="social"><a href="#"><i class="fab fa-facebook-square"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-instagram"></i></a></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="card col-md-3">
+                  <div class="card-content">
+                      <div class="card-body p-0">
+                          <div class="profile"> <img src="./assets/img/team/3.png" alt="4green"> </div>
+                          <div class="card-title"> <h2>Dane Wheeler</h2> <small>Fundraiser</small> </div>
+                          <div class="card-subtitle">
+                              <p> <small class="text-muted"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </small> </p>
+                          </div>
+                          <div class="social"><a href="#"><i class="fab fa-facebook-square"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-instagram"></i></a></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+      <!-- End Team Section --> 
+
+          <!-- Testimonial Section --> 
+          <section id="testimonial">           
+            <div class="container mb-5 mx-auto" data-aos="fade-up">
+              <h1 class="mt-4 mb-4">What People Say</h1>
+              <div class="row row-cards">
+                  <div class="col-xs-12 col-md-4">
+                      <div class="maincard p-3 mx-auto">
+                          <div class="testim-card">
+                              <div class="testim-front text-center py-4"> <img src="./assets/img/testimonials/1.png" class="rounded-circle mt-5" width="100" alt="4green">
+                                  <h3 class="mt-2 mb-0">Jeanne Shepher</h3>
+                                  <i class="fas fa-eye"></i> 
+                              </div>
+                              <div class="testim-back py-3 px-3">
+                                  <div class="quote mt-1">
+                                      <h4><i class="fa fa-quote-left"></i></h4>
+                                      <p class="about text-justify">Cras fringilla, magna eget imperdiet congue, tellus turpis pulvinar risus, vel mattis justo ipsum a lectus. Lorem ipsum dolor sit amet, consectetur adipiscing. </p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xs-12 col-md-4">
+                      <div class="maincard p-3 mx-auto">
+                          <div class="testim-card">
+                              <div class="testim-front text-center py-4"> <img src="./assets/img/testimonials/2.png" class="rounded-circle mt-5" width="100" alt="4green">
+                                  <h3 class="mt-2 mb-0">Emil Browner</h3> 
+                                  <i class="fas fa-eye"></i>
+                              </div>
+                              <div class="testim-back py-3 px-3">
+                                  <div class="quote mt-1">
+                                      <h4><i class="fa fa-quote-left"></i></h4>
+                                      <p class="about text-justify">Cras fringilla, magna eget imperdiet congue, tellus turpis pulvinar risus, vel mattis justo ipsum a lectus. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xs-12 col-md-4">
+                      <div class="maincard p-3 mx-auto">
+                          <div class="testim-card">
+                              <div class="testim-front text-center py-4"> <img src="./assets/img/testimonials/3.png" class="rounded-circle mt-5" width="100" alt="4green">
+                                  <h3 class="mt-2 mb-0">John Fowler</h3>
+                                  <i class="fas fa-eye"></i>
+                              </div>
+                              <div class="testim-back py-3 px-3">
+                                  <div class="quote mt-1">
+                                      <h4><i class="fa fa-quote-left"></i></h4>
+                                      <p class="about text-justify">Cras fringilla, magna eget imperdiet congue, tellus turpis pulvinar risus, vel mattis justo ipsum a lectus. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          </section>
+
+          <!-- End Testimonial Section --> 
+
+          <!--Contact Section --> 
+          <section id="contact">
+            <div class="container mt-3">
+                <h1><strong>Get in Touch</strong></h1>
+                          
+            <div class="row">
+              <div class="col-md-7" data-aos="fade-left" >
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.4007638329094!2d4.416476615560657!3d50.8422625669363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3db570d47a439%3A0x6717ec1307689cd7!2sAvenue%20de%20Broqueville%20210%2C%201200%20Woluwe-Saint-Lambert%2C%20Belgium!5e0!3m2!1sen!2sro!4v1601883007252!5m2!1sen!2sro" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="contact-map"></iframe>
+                </div>
+          
+                <div class="col-md-5" data-aos="fade-right" >
+                  <form>
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="name" value="name" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                      <input type="email" class="form-control" name="email" value="email" placeholder="Ee-mail">
+                    </div>
+                    <div class="form-group">
+                      <textarea class="form-control" name="message" rows="3" placeholder="Message"></textarea>
+                    </div>
+                    <button class="btn btn-default" type="submit" name="button">
+                     Submit
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+            <!-- End Contact Section --> 
+      </main>
+      <!-- End Main -->    
+
+<!-- Preloader -->   
+<div id="preloader"></div>
+  <a href="#" class="back-to-top"></a>          
+          
+
+  <!-- Footer -->
+  <footer id="footer" class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-4">
+                <div class="footer-infobox">
+                    <h1>Who We Are</h1>
+                    <p class="footer-info-text">
+                      We value the natural, and  we are concerned with protecting and preserving a healthy environment.Aliquam accumsan, orci sit amet hendrerit mattis, ex nisi finibus enim, sit amet rutrum sem lectus et tortor.
+                    </p>
+                    <div class="footer-social-link">
+                        <h2>Follow us</h2>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                  <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                  <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                  <i class="fab fa-tumblr"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End Social link -->
+                </div>
+                <!-- End Footer info -->
+               
+            </div>
+            <!-- End Col -->
+            <div class="col-md-12 col-lg-8">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="contact-us">
+                            <div class="contact-icon">
+                              <i class="far fa-map"></i>
+                            </div>
+                            <!-- End contact Icon -->
+                            <div class="contact-info">
+                                <h3>Bruxelles Belgium</h3>
+                                <p>210 Av. de Broqueville</p>
+                            </div>
+                            <!-- End Contact Info -->
+                        </div>
+                        <!-- End Contact Us -->
+                    </div>
+                    <!-- End Col -->
+                    <div class="col-md-6">
+                        <div class="contact-us contact-us-phone">
+                            <div class="contact-icon">
+                              <i class="fas fa-phone"></i>
+                            </div>
+                            <!-- End contact Icon -->
+                            <div class="contact-info">
+                                <h3>0032 34 45 78</h3>
+                                <p>Give us a call</p>
+                            </div>
+                            <!-- End Contact Info -->
+                        </div>
+                        <!-- End Contact Us -->
+                    </div>
+                    <!-- End Col -->
+                </div>
+                <!-- End Contact Row -->
+                <div class="row">
+                    <div class="col-md-12 col-lg-6">
+                        <div class="footer-widget footer-left-widget">
+                            <div class="section-heading">
+                                <h2>Quick Links</h2>
+                               
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="#join">Join us</a>
+                                </li>
+                                <li>
+                                    <a href="#skills">Causes</a>
+                                </li>
+                                <li>
+                                    <a href="#portfolio">Projects</a>
+                                </li>
+                                <li>
+                                    <a href="#contact">Contact us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Footer Widget -->
+                    </div>
+                    <!-- End col -->
+                    <div class="col-md-12 col-lg-6">
+                        <div class="footer-widget">
+                            <div class="section-heading">
+                                <h2>Newsletter</h2>
+                                
+                            </div>
+                            <p class="newsletter">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.</p>
+                            <form action="#">
+                                <div class="form-row">
+                                    <div class="col footer-form">
+                                        <input type="email" class="form-control" placeholder="Email Address">
+                                        <button type="submit">
+                                          <i class="fas fa-paper-plane"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                            <!-- End form -->
+                        </div>
+                        <!-- End footer widget -->
+                    </div>
+                    <!-- End Col -->
+                </div>
+                <!-- End Row -->
+            </div>
+            <!-- End Col -->
+        </div>
+        <!-- End Widget Row -->
+    </div>
+    <!-- End Contact Container -->
+
+
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <span>Copyright ©4GREEN 2020</span>
+                </div>
+                <!-- End Col -->
+            </div>
+            <!-- End Row -->
+        </div>
+        <!-- End Copyright Container -->
+    </div>
+    <!-- End Copyright -->
+
+    <!-- Back to top btn -->
+    <div id="to-top">
+        <button class="btn btn-dark" title="Back to Top">
+          <i class="fas fa-angle-up"></i>
+        </button>
+    </div>
+    <!-- End Back to top -->
+</footer> <!-- End FOOTER -->
+
+
+
+  <!-- JQuery Library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Bootstrap core JavaScript -->
+
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
+
+
+
+<!-- popper.js used for dropdown -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   
+<!-- AOS Animation -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!--Portfolio scripts -->
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/isotope/isotope.pkgd.min.js"></script>
+<script src="lib/lightbox/js/lightbox.min.js"></script>
+ 
+
+
+<!-- Main JavaScript -->
+<script src="js/main.js"></script>
+   
+
+
+</body>
+
+</html>
