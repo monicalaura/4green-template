@@ -1,0 +1,52 @@
+Images
+
+umesh-r-desai-hLyJyRAcDkw-unsplash
+https://unsplash.com/photos/hLyJyRAcDkw
+
+tr-n-anh-tu-n-y1fcIQhSu7Q-unsplash.jpg
+https://unsplash.com/photos/y1fcIQhSu7Q
+
+johannes-plenio-6XUA5KQ9-1k-unsplash
+https://unsplash.com/photos/6XUA5KQ9-1k
+
+magnus-lunay-hukMR88Ni0I-unsplash
+https://unsplash.com/photos/hukMR88Ni0I
+
+amanda-phung-GhNrRibJHlI-unsplash.jpg
+https://unsplash.com/photos/GhNrRibJHlI
+
+ed-van-duijn-2uTjeMfeVEU-unsplash
+https://unsplash.com/photos/2uTjeMfeVEU
+
+aaron-burden-yzgF-AQt1sQ-unsplash
+https://unsplash.com/photos/yzgF-AQt1sQ
+
+zhang-kaiyv-FmyIBz2JDHU-unsplash
+https://unsplash.com/photos/FmyIBz2JDHU
+
+alesia-kazantceva-E8dAbseeFLo-unsplash.jpg
+https://unsplash.com/photos/E8dAbseeFLo
+
+nazarizal-mohammad-9neA6wcJVPc-unsplash
+https://unsplash.com/photos/9neA6wcJVPc
+
+Video 
+
+YouTube: https://www.youtube.com/watch?v=QnIHaan9cf0&t=7s
+
+VENOBOX - jQuery plugin
+The MIT License (MIT)
+
+Isotope PACKAGED v3.0.5
+ 
+ Licensed GPLv3 for open source use
+ or Isotope Commercial License for commercial use
+
+Lightbox v2.10.0
+  by Lokesh Dhakar
+ * Copyright 2007, 2018 Lokesh Dhakar
+ * Released under the MIT license
+
+OwlCarousel
+Copyright (c) 2014 Owl
+Modified work Copyright 2016 David Deutsch
