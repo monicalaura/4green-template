@@ -1097,7 +1097,7 @@ STORY Section
 #call h1{
   color:#FFFFFF;
   text-align: center;
-  font-size: 3.7em;
+  font-size: 2.5em;
 }
 
 .donate-btn{
@@ -1109,6 +1109,15 @@ STORY Section
 .donate{
   font-size:1em;
   padding:.6em 2em .6em 2em;
+}
+
+/*--------------------------------------------------------------
+Large devices (desktops, 992px and up)
+--------------------------------------------------------------*/
+@media (min-width: 992px) { 
+  #call h1{
+    font-size: 3.7em;
+  }
 }
 
 /*--------------------------------------------------------------
