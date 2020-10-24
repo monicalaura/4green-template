@@ -181,9 +181,18 @@ section{
 }
 
 /*--------------------------------------------------------------
-Large devices (desktops, 1024px and up)
+Medium devices (desktops, 768px and up)
 --------------------------------------------------------------*/
-@media (min-width: 1024px) { 
+@media (min-width: 768px) { 
+  .navbar-expand-md .navbar-nav {
+flex-wrap: wrap;
+}
+}
+
+/*--------------------------------------------------------------
+Large devices (desktops, 992px and up)
+--------------------------------------------------------------*/
+@media (min-width: 992px) { 
 
   .navbar{
     max-height: 75px;
