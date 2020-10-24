@@ -183,7 +183,7 @@ section{
 /*--------------------------------------------------------------
 Large devices (desktops, 992px and up)
 --------------------------------------------------------------*/
-@media (min-width: 992px) { 
+@media (min-width: 1024px) { 
 
   .navbar{
     max-height: 75px;
